@@ -22,21 +22,15 @@ import Luxafor from 'node-luxafor';
 const MyLight = new Luxafor();
 ```
 
-**Set Luxafor to blue**
+**Set Luxafor to blue using RGB colors**
 ```js
 MyLight
   .color(0, 0, 255)
   .exec()
 ```
 
-**Set Luxafor to blue**
-```js
-MyLight
-  .color(0, 0, 255)
-  .exec()
-```
 
-**Set Luxafor to green**
+**Set Luxafor to green using HEX colors**
 ```js
 MyLight
   .hex('#00FF00')
